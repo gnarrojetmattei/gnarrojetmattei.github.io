@@ -3,7 +3,7 @@
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2132Z1K28P"></script>
-  <script>
+  <script type="text/plain" data-category="analytics" data-service="Google Analytics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -18,9 +18,13 @@
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="Gnarro">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+
 </head>
 
 <body>
+  <script type="module" src="cookieconsent-config.js"></script>
   <header>
     <div class="title-logo">
       <img alt="logo gnarro" src="assets/logo.svg" />
@@ -100,7 +104,6 @@
       <img src="assets/villanova.png" alt="">
     </a>
   </div>
-
 
 </body>
 
