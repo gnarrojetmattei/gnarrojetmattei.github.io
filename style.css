@@ -172,6 +172,14 @@ article h2 {
     justify-content: center;
 }
 
+footer {
+    max-width: 1081px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
 @media (max-width: 1081px) {
     .eventi {
         padding-left: 1em;
