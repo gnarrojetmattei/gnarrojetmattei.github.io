@@ -132,9 +132,10 @@ article h2 {
 
 .eventi .card {
     grid-column: span 1;
+    min-height: 12rem;
     background-color: white;
     border-radius: 4px;
-    padding: calc(var(--gap) * 2) calc(var(--gap) * 6) calc(var(--gap) * 6) calc(var(--gap) * 2);
+    padding: calc(var(--gap) * 2) calc(var(--gap) * 6) calc(var(--gap) * 2) calc(var(--gap) * 2);
     font-size: 1.25em;
     font-weight: bold;
     color: var(--blue);
@@ -152,6 +153,25 @@ article h2 {
 .eventi .card span.data img {
     vertical-align: bottom;
     margin-right: var(--gap);
+}
+
+.eventi .card .link {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: calc(var(--gap) * 2);
+    gap: calc(var(--gap) / 2);
+}
+
+.eventi .card .link a {
+    text-decoration: none;
+    color: #dd2317;
+}
+
+.eventi .card .link a:hover {
+    text-decoration: underline;
 }
 
 .sponsor {
