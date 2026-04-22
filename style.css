@@ -125,13 +125,13 @@ article h2 {
     margin: 0 auto;
     max-width: 1081px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: var(--gap);
     padding-top: 1em;
 }
 
 .eventi .card {
-    grid-column: span 1;
+    grid-column: span 2;
     min-height: 12rem;
     background-color: white;
     border-radius: 4px;
@@ -141,6 +141,10 @@ article h2 {
     color: var(--blue);
     display: flex;
     flex-direction: column;
+}
+
+.eventi .card:nth-child(1), .eventi .card:nth-child(2) {
+  grid-column: span 3;
 }
 
 .eventi .card span.data {
