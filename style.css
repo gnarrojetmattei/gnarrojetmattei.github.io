@@ -184,7 +184,7 @@ article h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 24px;
+    gap: 64px;
     justify-content: space-evenly;
     align-items: center;
     padding: 2em 1em 4em 1em;
